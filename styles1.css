@@ -1,0 +1,110 @@
+body{
+    background-color: #b8b8b8;
+
+}
+h1{
+    color: #393f3e;
+    text-align: center;
+    text-decoration: underline  #393f3e;
+}
+
+.container{ 
+    margin-left: 6%;
+    margin-top: 5%;
+    /* display: inline-block; */
+}
+.container .box1{
+
+    position: relative;
+    width: 21%;
+    height: calc(500px - 30px);
+    background-color: #fe4557;
+    float :left;
+    margin:15px;
+    align-items: center; 
+}
+.container .box2{
+
+    position: relative;
+    width:21%;
+    height: calc(500px - 30px);
+    background-color: #393f3e;
+    float :left;
+     margin: 15px; 
+     align-items: center;
+}
+.container .box3{
+
+    position: relative;
+    width: 21%;
+    height: calc(500px - 30px);
+    background-color: #fe4557;
+    float :left;
+    margin: 15px; 
+    align-items: center;
+}
+.container .box4{
+
+    position: relative;
+    width:21%;
+    height: calc(500px - 30px);
+    background-color: #393f3e;
+    float :left;
+     margin: 15px; 
+     align-items: center;
+}
+.img1{
+    
+    width: 225px;
+    height: 200px;
+    padding: 0% ;
+margin: 0px 0px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+p{
+    text-align: left;
+    color: white;
+    margin-top: 0px;
+padding: 13px;
+font-size: 19px;
+}
+.container .box1 h1{
+    text-align: left;
+    text-decoration: none;
+    margin-left: 7px;
+    color: #393f3e;
+}
+.container .box2 h2{
+    text-align: left;
+    text-decoration: none;
+    margin-left: 7px;
+    color: #fe4557;
+}
+.container .box3 h2{
+    text-align: left;
+    text-decoration: none;
+    margin-left: 7px;
+    color:#393f3e;
+}
+.container .box4 h1{
+    text-align: left;
+    text-decoration: none;
+    margin-left: 7px;
+    color: #fe4557;
+}
+.btn1{
+background-color:#393f3e ;
+align-items: left;
+margin-left: 10px;
+color: white;
+height: 5%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn2{
+    background-color: #fe4557;
+    align-items: left;
+    margin-left: 10px;
+    color: white;
+    height: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }

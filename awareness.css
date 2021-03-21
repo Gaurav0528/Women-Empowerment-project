@@ -1,0 +1,61 @@
+*{
+	padding:0;
+	margin:0;
+}
+.chart{
+	width: 900px; 
+	height: 500px;
+	top:500px;
+	padding-top: 50px;
+}
+h1 {
+	text-align: center;
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 100000;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.header-logo {
+  text-align:center;
+  color: skyblue;
+  background-color: grey;
+  width :100%;
+  font-size: 50px;
+  padding-top:15px;
+  padding-left:20px;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.pie_head{
+	padding-top: 50px;
+}
+body{
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.img-wrap{
+	width: 100%;
+}
+.img-wrap img{
+	width:100%;
+	padding: 10px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px #999999
+}
+.img1-wrap img{
+	width:100%;
+	padding-top: 400px;
+}
+.img2-wrap img{
+	width:100%;
+	padding-top: 100px;
+}
+.video{
+	text-align: center;
+}

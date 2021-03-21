@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,55,202,0.8603816526610644) 0%, rgba(255,0,69,0.8855917366946778) 100%);
+}
+
+.navbar{
+    /* border: 2px solid pink; */
+    display: flex;
+    /* background-color: whitesmoke; */
+    justify-content: space-around;
+    align-items: center;
+    /* width: 50%; */
+    margin-bottom: 5px;
+    
+    margin-top: 1rem;
+
+    margin-bottom: 0;
+    
+}
+
+.navbar::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 93px;
+    background-color: #FF9AD8;
+    z-index: -3;
+    border-radius: 0 0 200px 0;
+
+}
+
+.navbar ul{
+    display: flex;
+    background: none;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    position: relative;
+    padding: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    background: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    overflow: hidden;
+    border-radius: 30%;
+    padding: 8px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    background: none;
+    cursor: pointer;
+}
+.navbar img{
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.contentbox{
+ /* z-index: 1; */
+    height: 60%;
+    width: 45%;
+    margin-top: 0px;
+    display: flex;
+    
+    /* color: red; */
+    background-color: whitesmoke;
+    position: absolute;
+    top:5.8rem;
+    /* text-align: center; */
+    border-radius: 0px 0% 110% 0px;
+    
+}
+
+.contentbox img{
+    /* padding-top: 0.1rem; */
+    margin-top: 3rem;
+    margin-left: 5rem;
+    width: 60%;
+    height: 60%;
+}
+.imagebox{
+    margin-top: 10px;
+    left: 33%;
+    height: 15rem;
+    z-index: -1;
+    top:5.3rem;
+    /* border: 2px solid black; */
+    position: absolute;
+    border-radius: 0 0 90% 0;
+    overflow: hidden;
+}
+
+.imagebox img{
+    height: 16.5rem;
+    width: 20rem;
+    opacity: 0.4;
+}
+
+.quote{
+    position: absolute;
+    z-index: -1;
+    left: 70%;
+    top:20%;
+    font-size: 2.5rem;
+    /* border: 2px solid red; */
+    width: 20rem;
+    padding: 0;
+}
+
+.quote #line1{
+    position: relative
+    left:20px;
+    /* color:white; */
+}
+.quote #line1 h3{
+    margin-top: 20px;
+}
+.quote #line1 a{
+    color: seashell;
+}
+
+
+.quote1{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    font-size: 2.5rem;
+}
+.quote1 a{
+    color: seashell;
+}
+
+.quote, .quote1 {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* effects */
+/* .navbar ul li{
+    position: relative;
+    background: none;
+} */
+.navbar ul li::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0%;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    transition: 0.3s all ease-in-out;
+    z-index: -1;
+    border-radius: 43%;
+    
+}
+
+.navbar ul li:hover::after{
+    height: 100%;
+}
+
+
+
+/* ******************************************* */
+.cardbox
+{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    padding-top: 15px;
+    top: 80%;
+    align-items: center;
+    /* border: 2px solid green; */
+    justify-content: space-around;
+    background-color: wheat;
+    z-index: -1;
+    
+}
+.card img{
+    position: relative;
+    width: 250px;
+    height: 240px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+.card{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+
+    
+}
+
+#card img::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    height:100%;
+    background-color: black;
+    
+}
+
+.card img:hover{
+      opacity: 0.4;
+}
+/* ************************************************* */
+
+.endpage{
+    background-color: wheat;
+    position: absolute;
+    width: 100%;
+    top: 150%;
+    /* display: flex; */
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+.endpage h3 {
+    /* display: block; */
+    font-family: 'Poppins', sans-serif;
+
+    text-align: center;
+    /* color: yellow; */
+    font-size: 30px;
+}
+.endpage p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.box1 li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.box2 img{
+    padding-top: 10px;
+    width: 220px;
+    height: 60px;
+}
+.box1 h4{
+    font-size: 30px;
+}
+.box2{
+    padding-top: 40px;
+}
